@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="list_side_margin">4dp</dimen>
+    <integer name="list_column_count">2</integer>
+
+    <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_body_text_size">20sp</dimen>
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
+
+    <dimen name="activity_horizontal_margin">12dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+
+    <dimen name="standard_padding">4dp</dimen>
+
+    <dimen name="paddingtop_detaildesc">10dp</dimen>
+    <dimen name="detail_imgvheight">200dp</dimen>
+    <dimen name="main_imgvheight">150dp</dimen>
+    <dimen name="button_elevation">2dp</dimen>
+    <dimen name="button_press_elevation">4dp</dimen>
+
+    <dimen name="card_corner_radius">7dp</dimen>
+
+    <dimen name="list_toolbar_side_margin">0dp</dimen>
+
+    <dimen name="appbar_elev">4dp</dimen>
+    <dimen name="card_rest">2dp</dimen>
+    <dimen name="card_raised">8dp</dimen>
+
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_size_small">40dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="fab_margin">30dp</dimen>
+
+    <dimen name="mainheight_imgb">250dp</dimen>
+    <dimen name="mainmargintop_imgb">20dp</dimen>
+    <dimen name="main_tvsize">30sp</dimen>
+
+    <dimen name="apod_appbarheight">300dp</dimen>
+    <dimen name="apod_appbarheight_tablet">400dp</dimen>
+    <dimen name="apod_fabmarginbottom">110dp</dimen>
+    <dimen name="apod_invtvsize">20sp</dimen>
+    <dimen name="apod_invtvmarginend">90dp</dimen>
+    <dimen name="apod_invtv1marginbottom">125dp</dimen>
+    <dimen name="apod_invtv2marginbottom">195dp</dimen>
+    <dimen name="apod_titlesize_tv">27sp</dimen>
+    <dimen name="apod_titleminheight_tv">100dp</dimen>
+    <dimen name="apod_padding_tv">20dp</dimen>
+    <dimen name="apod_cpyminheight_tv">50dp</dimen>
+    <dimen name="apod_cpyexpsize_tv">18sp</dimen>
+    <dimen name="apod_expmargintop_tv">10dp</dimen>
+
+    <dimen name="mexrecycler_itemheight">230dp</dimen>
+    <dimen name="mexrecycler_itemheight_tablet">350dp</dimen>
+
+
+</resources>

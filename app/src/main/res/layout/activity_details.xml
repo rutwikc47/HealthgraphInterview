@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.rccorp.steamviewer.Activity.AppActivity"
+    android:id="@+id/relative_layout"
+    android:background="@color/black">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        android:layout_margin="@dimen/standard_padding"
+        android:background="@color/background1">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/detail_imgvheight"
+                    android:id="@+id/thumbdet_imgv"
+                    android:scaleType="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/namedet_tv"
+                    android:layout_below="@id/thumbdet_imgv"
+                    android:textSize="19sp"
+                    android:textColor="@color/text_white"
+                    android:textAlignment="center"
+                    android:singleLine="true"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_below="@id/namedet_tv"
+                    android:padding="@dimen/standard_padding"
+                    android:textColor="@color/white"
+                    android:id="@+id/metadet_tv"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/currplaydet_tv"
+                    android:textSize="15sp"
+                    android:layout_below="@id/metadet_tv"
+                    android:padding="@dimen/standard_padding"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/currplaydet_tv"
+                    android:textSize="18sp"
+                    android:paddingTop="@dimen/paddingtop_detaildesc"
+                    android:paddingLeft="@dimen/standard_padding"
+                    android:paddingRight="@dimen/standard_padding"
+                    android:textColor="@color/white"
+                    android:hint="NO DESCRIPTION AVAILABLE"
+                    android:textAlignment="center"
+                    android:id="@+id/descdet_tv"
+                    android:fontFamily="sans-serif-condensed"
+                    />
+
+            </RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "66493508704",
+    "project_id": "steamviewer-1521293940671"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66493508704:android:70eadca56557e4aa",
+        "android_client_info": {
+          "package_name": "com.rccorp.steamviewer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66493508704-kb5f5vq1m004a8okua0k71ktukokbp0l.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "66493508704-4ms7tp6vb3ga9a239f1l3l7826sl221c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rccorp.steamviewer",
+            "certificate_hash": "1f32cc22af86233d874f3ff1c401be514f510a92"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTxYcGzqLy2qrqHUD7xk9nI-7JzW4Fidw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SteamViewer</string>\
+
+    <string-array name="appids">
+        <item>570</item>
+        <item>578080</item>
+        <item>252950</item>
+        <item>359550</item>
+        <item>444090</item>
+        <item>55250</item>
+        <item>271590</item>
+        <item>252490</item>
+        <item>230410</item>
+    </string-array>
+
+    <string name="desc">-Description-\n</string>
+    <string name="meta">Metacritic Score -</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in with Google</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="server_client_id">622071466208-g0i5u94ahhs896daqqse2qf0jmm24eqo.apps.googleusercontent.com</string>
+
+</resources>
